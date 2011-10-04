@@ -1,0 +1,197 @@
+* Mon Jan 10 2011 Passion Zhao <passion.zhao@intel.com> - 0.20.2
+- Fix build error with openssl 1.0.0c (#FEA11623,#BMC11993)
+
+* Thu Dec 24 2009 Passion Zhao <passion.zhao@intel.com> - 0.20.2
+- Update to 0.20.2
+
+* Fri Sep 25 2009 Anas Nashif <anas.nashif@intel.com> - 0.20.1
+- Split documentation, save 2MB on base system
+
+* Mon Sep 07 2009 Passion Zhao <passion.zhao@intel.com> - 0.20.1-1
+- Update to 0.20.1
+
+* Sun Apr 12 2009 Peter Zhu<peter.j.zhu@intel.com> - 0.19.1-1
+- First import to moblin
+
+* Mon Oct 13 2008 Miloslav Trmač <mitr@redhat.com> - 0.19.1-1
+- Update to m2crypto-0.19.1
+
+* Mon Oct  6 2008 Miloslav Trmač <mitr@redhat.com> - 0.19-1
+- Update to m2crypto-0.19
+- Fix some rpmlint warnings
+
+* Thu Sep 18 2008 Dennis Gilmore <dennis@ausil.us> - 0.18.2-8
+- enable sparc arches
+
+* Wed Jun 11 2008 Miloslav Trmač <mitr@redhat.com> - 0.18.2-7
+- Update m2urllib2 to match the Python 2.5 code instead
+
+* Sun Jun  8 2008 Miloslav Trmač <mitr@redhat.com> - 0.18.2-6
+- Don't remove the User-Agent header from proxied requests
+  Related: #448858
+- Update m2urllib2.py to work with Python 2.5
+
+* Sat Jun  7 2008 Miloslav Trmač <mitr@redhat.com> - 0.18.2-5
+- Use User-Agent in HTTP proxy CONNECT requests
+  Related: #448858
+
+* Tue Feb 19 2008 Fedora Release Engineering <rel-eng@fedoraproject.org> - 0.18.2-4
+- Autorebuild for GCC 4.3
+
+* Fri Jan 11 2008 Miloslav Trmač <mitr@redhat.com> - 0.18.2-3
+- Ship Python egg information
+
+* Tue Dec  4 2007 Miloslav Trmač <mitr@redhat.com> - 0.18.2-2
+- Rebuild with openssl-0.9.8g
+
+* Fri Oct 26 2007 Miloslav Trmač <mitr@redhat.com> - 0.18.2-1
+- Update to m2crypto-0.18.2
+- Remove BuildRequires: unzip
+
+* Sun Sep 23 2007 Miloslav Trmač <mitr@redhat.com> - 0.18-2
+- Add missing Host: header to CONNECT requests (patch by Karl Grindley)
+  Resolves: #239034
+- Fix License:
+
+* Wed Aug  1 2007 Miloslav Trmač <mitr@redhat.com> - 0.18-1
+- Update to m2crypto-0.18
+
+* Wed Jul 11 2007 Miloslav Trmač <mitr@redhat.com> - 0.17-3
+- Try to fix build on Alpha
+  Resolves: #246828
+
+* Fri Apr 27 2007 Miloslav Trmac <mitr@redhat.com> - 0.17-2
+- Make m2xmlrpclib work with Python 2.5
+  Resolves: #237902
+
+* Wed Jan 17 2007 Miloslav Trmac <mitr@redhat.com> - 0.17-1
+- Update to m2crypto-0.17
+- Update for Python 2.5
+
+* Thu Dec  7 2006 Miloslav Trmac <mitr@redhat.com> - 0.16-8
+- Rebuild with updated build tools to avoid DT_TEXTREL on s390x
+  Resolves: #218578
+
+* Thu Dec  7 2006 Jeremy Katz <katzj@redhat.com> - 0.16-7
+- rebuild against python 2.5
+
+* Mon Oct 23 2006 Miloslav Trmac <mitr@redhat.com> - 0.16-6
+- Add support for SSL socket timeouts (based on a patch by James Bowes
+  <jbowes@redhat.com>)
+  Resolves: #219966
+
+* Fri Oct 20 2006 Miloslav Trmac <mitr@redhat.com> - 0.16-5
+- Backport the urllib2 wrapper (code by James Bowes <jbowes@redhat.com>)
+  Resolves: #210956
+- Add proxy support for https using CONNECT (original patch by James Bowes
+  <jbowes@redhat.com>)
+  Resolves: #210963
+
+* Tue Sep 26 2006 Miloslav Trmac <mitr@redhat.com> - 0.16-4
+- Drop Obsoletes: openssl-python, openssl-python was last shipped in RHL 7.1
+- Fix interpreter paths in demos
+
+* Sat Sep 23 2006 Miloslav Trmac <mitr@redhat.com> - 0.16-3
+- Make more compliant with Fedora guidelines
+- Update URL:
+
+* Wed Jul 12 2006 Jesse Keating <jkeating@redhat.com> - 0.16-2.1
+- rebuild
+
+* Thu Jul  6 2006 Miloslav Trmac <mitr@redhat.com> - 0.16-2
+- Fix build with rawhide swig
+
+* Thu Jul  6 2006 Miloslav Trmac <mitr@redhat.com> - 0.16-1
+- Update to m2crypto-0.16
+
+* Wed Apr 19 2006 Miloslav Trmac <mitr@redhat.com> - 0.15-4
+- Fix SSL.Connection.accept (#188742)
+
+* Fri Feb 10 2006 Jesse Keating <jkeating@redhat.com> - 0.15-3.2
+- bump again for double-long bug on ppc(64)
+
+* Tue Feb 07 2006 Jesse Keating <jkeating@redhat.com> - 0.15-3.1
+- rebuilt for new gcc4.1 snapshot and glibc changes
+
+* Tue Jan  3 2006 Miloslav Trmac <mitr@redhat.com> - 0.15-3
+- Add BuildRequires: swig
+
+* Fri Dec 09 2005 Jesse Keating <jkeating@redhat.com>
+- rebuilt
+
+* Wed Nov  9 2005 Miloslav Trmac <mitr@redhat.com> - 0.15-2
+- Rebuild with newer openssl
+
+* Mon Aug 29 2005 Miloslav Trmac <mitr@redhat.com> - 0.15-1
+- Update to m2crypto-0.15
+- Drop bundled swig
+
+* Tue Jun 14 2005 Miloslav Trmac <mitr@redhat.com> - 0.13-5
+- Better fix for #159898, by Dan Williams
+
+* Thu Jun  9 2005 Miloslav Trmac <mitr@redhat.com> - 0.13-4
+- Fix invalid handle_error override in SSL.SSLServer (#159898, patch by Dan
+  Williams)
+
+* Tue May 31 2005 Miloslav Trmac <mitr@redhat.com> - 0.13-3
+- Fix invalid Python version comparisons in M2Crypto.httpslib (#156979)
+- Don't ship obsolete xmlrpclib.py.patch
+- Clean up the build process a bit
+
+* Wed Mar 16 2005 Nalin Dahyabhai <nalin@redhat.com> 0.13-2
+- rebuild
+
+* Tue Nov 23 2004 Karsten Hopp <karsten@redhat.de> 0.13-1
+- update, remove now obsolete patches
+
+* Mon Nov 22 2004 Karsten Hopp <karsten@redhat.de> 0.09-7
+- changed pythonver from 2.3 to 2.4
+
+* Tue Jun 15 2004 Elliot Lee <sopwith@redhat.com>
+- rebuilt
+
+* Tue Mar 02 2004 Elliot Lee <sopwith@redhat.com>
+- rebuilt
+
+* Tue Feb 24 2004 Harald Hoyer <harald@redhat.com> - 0.09-5
+- changed pythonver from 2.2 to 2.3
+- patched setup.py to cope with include path
+
+* Fri Feb 13 2004 Elliot Lee <sopwith@redhat.com>
+- rebuilt
+
+* Wed Jun 04 2003 Elliot Lee <sopwith@redhat.com>
+- rebuilt
+
+* Wed Jan 22 2003 Tim Powers <timp@redhat.com>
+- rebuilt
+
+* Tue Jan 14 2003 Nalin Dahyabhai <nalin@redhat.com> 0.09-1
+- Update to version 0.09
+- Build using bundled copy of SWIG
+- Pick up additional CFLAGS and LDFLAGS from OpenSSL's pkgconfig data, if
+  there is any
+- Handle const changes in new OpenSSL
+- Remove unnecessary ldconfig calls in post/postun
+
+* Thu Dec 12 2002 Elliot Lee <sopwith@redhat.com> 0.07_snap3-2
+- Update to version 0.07_snap3
+
+* Fri Jun 21 2002 Tim Powers <timp@redhat.com>
+- automated rebuild
+
+* Sun May 26 2002 Tim Powers <timp@redhat.com>
+- automated rebuild
+
+* Mon May 20 2002 Nalin Dahyabhai <nalin@redhat.com> 0.05_snap4-4
+- rebuild with Python 2.2
+
+* Wed Apr 24 2002 Nalin Dahyabhai <nalin@redhat.com> 0.05_snap4-3
+- remove a stray -L at link-time which prevented linking with libssl (#59985)
+
+* Thu Aug 23 2001 Nalin Dahyabhai <nalin@redhat.com> 0.05_snap4-2
+- drop patch which isn't needed because we know swig is installed
+
+* Mon Apr  9 2001 Nalin Dahyabhai <nalin@redhat.com> 0.05_snap4-1
+- break off from openssl-python
+

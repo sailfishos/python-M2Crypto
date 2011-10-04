@@ -1,0 +1,8 @@
+<package project="Mer:Trunk:Base" name="m2crypto">
+  <title>Support for using OpenSSL in python scripts</title>
+  <description>This package allows you to call OpenSSL functions from python scripts.
+
+
+</description>
+  <url>http://wiki.osafoundation.org/bin/view/Projects/MeTooCrypto</url>
+</package>
