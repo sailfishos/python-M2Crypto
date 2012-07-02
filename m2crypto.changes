@@ -1,3 +1,7 @@
+* Mon Jul 02 2012 Marko Saukko <sage@merproject.org> - 0.21.1
+- Fixes MER#369: update m2crypto to 0.21.1
+- Sync patches and packaging with latest fedora.
+
 * Mon Jan 10 2011 Passion Zhao <passion.zhao@intel.com> - 0.20.2
 - Fix build error with openssl 1.0.0c (#FEA11623,#BMC11993)
 

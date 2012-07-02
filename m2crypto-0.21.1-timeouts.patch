@@ -267,7 +267,7 @@ diff -ur m2crypto-0.18/SWIG/_ssl.i m2crypto/SWIG/_ssl.i
 +    return 0;
 +
 + timeout:
-+    PyErr_SetNone(_ssl_timeout_err);
++    PyErr_SetString(_ssl_timeout_err, "timed out");
 +    return -1;
 +}
 +
