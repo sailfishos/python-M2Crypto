@@ -1,3 +1,7 @@
+* Thu Aug 09 2012 David Greaves <david@dgreaves.com> - 0.21.1
+ - m2crypto should be called python-M2Crypto; as a first step
+   we provide python-M2Crypto and python-m2crypto.
+
 * Mon Jul 02 2012 Marko Saukko <sage@merproject.org> - 0.21.1
 - Fixes MER#369: update m2crypto to 0.21.1
 - Sync patches and packaging with latest fedora.

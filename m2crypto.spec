@@ -31,6 +31,10 @@ Group: System Environment/Libraries
 URL: http://wiki.osafoundation.org/bin/view/Projects/MeTooCrypto
 BuildRequires: openssl-devel, python2-devel
 BuildRequires: perl, pkgconfig, swig, which
+Provides:   python-m2crypto = %{version}
+Provides:   python-M2Crypto = %{version}
+Obsoletes:   python-m2crypto <= %{version}
+Obsoletes:   python-M2Crypto <= %{version}
 
 %filter_provides_in %{python_sitearch}/M2Crypto/__m2crypto.so
 %filter_setup
