@@ -1,8 +1,5 @@
 %{!?python_sitearch: %global python_sitearch %(%{__python} -c "from distutils.sysconfig import get_python_lib; print get_python_lib(1)")}
 
-# Keep this value in sync with the definition in openssl.spec.
-%global multilib_arches %{ix86} ia64 ppc ppc64 s390 s390x x86_64 sparc sparcv9 sparc64
-
 Summary: Support for using OpenSSL in python scripts
 Name: m2crypto
 Version: 0.21.1
@@ -64,11 +61,6 @@ basearch=i386
 %endif
 %ifarch sparcv9
 basearch=sparc
-%endif
-%ifarch %{multilib_arches}
-for i in SWIG/_ec.i SWIG/_evp.i; do
-	sed -i -e "s/opensslconf/opensslconf-${basearch}/" "$i"
-done
 %endif
 
 gcc -E -dM - < /dev/null | grep -v __STDC__ \

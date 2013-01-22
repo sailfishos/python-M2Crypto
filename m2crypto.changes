@@ -1,3 +1,6 @@
+* Tue Jan 22 2013 Oleg Girko <ol+mer@infoserver.ru> - 0.21.1
+- Disable multilib.
+
 * Thu Aug 09 2012 David Greaves <david@dgreaves.com> - 0.21.1
  - m2crypto should be called python-M2Crypto; as a first step
    we provide python-M2Crypto and python-m2crypto.
