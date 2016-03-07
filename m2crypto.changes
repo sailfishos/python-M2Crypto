@@ -1,3 +1,7 @@
+* Mon Mar 07 2016 Niels Breet <niels.breet@jolla.com> - 0.23.0
+- Update to 0.23.0 for Mer. MER#1538
+- Sync patches and packaging with latest fedora.
+
 * Tue Jan 22 2013 Oleg Girko <ol+mer@infoserver.ru> - 0.21.1
 - Disable multilib.
 
@@ -205,4 +209,5 @@
 
 * Mon Apr  9 2001 Nalin Dahyabhai <nalin@redhat.com> 0.05_snap4-1
 - break off from openssl-python
+
 
