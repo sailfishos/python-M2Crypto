@@ -6,8 +6,8 @@
 - Disable multilib.
 
 * Thu Aug 09 2012 David Greaves <david@dgreaves.com> - 0.21.1
- - m2crypto should be called python-M2Crypto; as a first step
-   we provide python-M2Crypto and python-m2crypto.
+- m2crypto should be called python-M2Crypto; as a first step
+- we provide python-M2Crypto and python-m2crypto.
 
 * Mon Jul 02 2012 Marko Saukko <sage@merproject.org> - 0.21.1
 - Fixes MER#369: update m2crypto to 0.21.1
@@ -25,7 +25,7 @@
 * Mon Sep 07 2009 Passion Zhao <passion.zhao@intel.com> - 0.20.1-1
 - Update to 0.20.1
 
-* Sun Apr 12 2009 Peter Zhu<peter.j.zhu@intel.com> - 0.19.1-1
+* Sun Apr 12 2009 Peter Zhu <peter.j.zhu@intel.com> - 0.19.1-1
 - First import to moblin
 
 * Mon Oct 13 2008 Miloslav Trmač <mitr@redhat.com> - 0.19.1-1
@@ -131,7 +131,7 @@
 * Tue Jan  3 2006 Miloslav Trmac <mitr@redhat.com> - 0.15-3
 - Add BuildRequires: swig
 
-* Fri Dec 09 2005 Jesse Keating <jkeating@redhat.com>
+* Fri Dec 09 2005 Jesse Keating <jkeating@redhat.com> - 0.15-2
 - rebuilt
 
 * Wed Nov  9 2005 Miloslav Trmac <mitr@redhat.com> - 0.15-2
@@ -162,26 +162,26 @@
 * Mon Nov 22 2004 Karsten Hopp <karsten@redhat.de> 0.09-7
 - changed pythonver from 2.3 to 2.4
 
-* Tue Jun 15 2004 Elliot Lee <sopwith@redhat.com>
+* Tue Jun 15 2004 Elliot Lee <sopwith@redhat.com> - 0.09-5
 - rebuilt
 
-* Tue Mar 02 2004 Elliot Lee <sopwith@redhat.com>
+* Tue Mar 02 2004 Elliot Lee <sopwith@redhat.com> - 0.09-5
 - rebuilt
 
 * Tue Feb 24 2004 Harald Hoyer <harald@redhat.com> - 0.09-5
 - changed pythonver from 2.2 to 2.3
 - patched setup.py to cope with include path
 
-* Fri Feb 13 2004 Elliot Lee <sopwith@redhat.com>
+* Fri Feb 13 2004 Elliot Lee <sopwith@redhat.com> - 0.09-1
 - rebuilt
 
-* Wed Jun 04 2003 Elliot Lee <sopwith@redhat.com>
+* Wed Jun 04 2003 Elliot Lee <sopwith@redhat.com> - 0.09-1
 - rebuilt
 
-* Wed Jan 22 2003 Tim Powers <timp@redhat.com>
+* Wed Jan 22 2003 Tim Powers <timp@redhat.com> - 0.09-1
 - rebuilt
 
-* Tue Jan 14 2003 Nalin Dahyabhai <nalin@redhat.com> 0.09-1
+* Tue Jan 14 2003 Nalin Dahyabhai <nalin@redhat.com> - 0.09-1
 - Update to version 0.09
 - Build using bundled copy of SWIG
 - Pick up additional CFLAGS and LDFLAGS from OpenSSL's pkgconfig data, if
@@ -189,25 +189,25 @@
 - Handle const changes in new OpenSSL
 - Remove unnecessary ldconfig calls in post/postun
 
-* Thu Dec 12 2002 Elliot Lee <sopwith@redhat.com> 0.07_snap3-2
+* Thu Dec 12 2002 Elliot Lee <sopwith@redhat.com> - 0.07_snap3-2
 - Update to version 0.07_snap3
 
-* Fri Jun 21 2002 Tim Powers <timp@redhat.com>
+* Fri Jun 21 2002 Tim Powers <timp@redhat.com> - 0.05_snap4-4
 - automated rebuild
 
-* Sun May 26 2002 Tim Powers <timp@redhat.com>
+* Sun May 26 2002 Tim Powers <timp@redhat.com> - 0.05_snap4-4
 - automated rebuild
 
-* Mon May 20 2002 Nalin Dahyabhai <nalin@redhat.com> 0.05_snap4-4
+* Mon May 20 2002 Nalin Dahyabhai <nalin@redhat.com> - 0.05_snap4-4
 - rebuild with Python 2.2
 
-* Wed Apr 24 2002 Nalin Dahyabhai <nalin@redhat.com> 0.05_snap4-3
+* Wed Apr 24 2002 Nalin Dahyabhai <nalin@redhat.com> - 0.05_snap4-3
 - remove a stray -L at link-time which prevented linking with libssl (#59985)
 
-* Thu Aug 23 2001 Nalin Dahyabhai <nalin@redhat.com> 0.05_snap4-2
+* Thu Aug 23 2001 Nalin Dahyabhai <nalin@redhat.com> - 0.05_snap4-2
 - drop patch which isn't needed because we know swig is installed
 
-* Mon Apr  9 2001 Nalin Dahyabhai <nalin@redhat.com> 0.05_snap4-1
+* Mon Apr  9 2001 Nalin Dahyabhai <nalin@redhat.com> - 0.05_snap4-1
 - break off from openssl-python
 
 
