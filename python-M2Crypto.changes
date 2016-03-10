@@ -153,13 +153,13 @@
 - Don't ship obsolete xmlrpclib.py.patch
 - Clean up the build process a bit
 
-* Wed Mar 16 2005 Nalin Dahyabhai <nalin@redhat.com> 0.13-2
+* Wed Mar 16 2005 Nalin Dahyabhai <nalin@redhat.com> - 0.13-2
 - rebuild
 
-* Tue Nov 23 2004 Karsten Hopp <karsten@redhat.de> 0.13-1
+* Tue Nov 23 2004 Karsten Hopp <karsten@redhat.de> - 0.13-1
 - update, remove now obsolete patches
 
-* Mon Nov 22 2004 Karsten Hopp <karsten@redhat.de> 0.09-7
+* Mon Nov 22 2004 Karsten Hopp <karsten@redhat.de> - 0.09-7
 - changed pythonver from 2.3 to 2.4
 
 * Tue Jun 15 2004 Elliot Lee <sopwith@redhat.com> - 0.09-5
