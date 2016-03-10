@@ -1,25 +1,21 @@
 %{!?python_sitearch: %global python_sitearch %(%{__python} -c "from distutils.sysconfig import get_python_lib; print get_python_lib(1)")}
 
 Summary: Support for using OpenSSL in python scripts
-Name: m2crypto
+Name: python-M2Crypto
 Version: 0.23.0
 Release: 1
 Source0: http://pypi.python.org/packages/source/M/M2Crypto/M2Crypto-%{version}.tar.gz
 # This is only precautionary, it does fix anything - not sent upstream
-Patch0: m2crypto-0.21.1-gcc_macros.patch
+Patch0: python-M2Crypto-0.21.1-gcc_macros.patch
 # https://gitlab.com/m2crypto/m2crypto/merge_requests/4
-Patch1: m2crypto-0.21.1-supported-ec.patch
-Patch2: m2crypto-0.23.0-no-weak-crypto.patch
+Patch1: python-M2Crypto-0.21.1-supported-ec.patch
+Patch2: python-M2Crypto-0.23.0-no-weak-crypto.patch
 
 License: MIT
 Group: System Environment/Libraries
 URL: https://gitlab.com/m2crypto/m2crypto/
 BuildRequires: openssl, openssl-devel, python2-devel, python-setuptools
 BuildRequires: perl, pkgconfig, swig, which
-Provides:   python-m2crypto = %{version}
-Provides:   python-M2Crypto = %{version}
-Obsoletes:   python-m2crypto <= %{version}
-Obsoletes:   python-M2Crypto <= %{version}
 
 %description
 This package allows you to call OpenSSL functions from python scripts.
