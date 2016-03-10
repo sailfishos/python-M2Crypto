@@ -21,9 +21,6 @@ Provides:   python-M2Crypto = %{version}
 Obsoletes:   python-m2crypto <= %{version}
 Obsoletes:   python-M2Crypto <= %{version}
 
-%filter_provides_in %{python_sitearch}/M2Crypto/__m2crypto.so
-%filter_setup
-
 %description
 This package allows you to call OpenSSL functions from python scripts.
 
