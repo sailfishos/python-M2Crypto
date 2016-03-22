@@ -1,3 +1,7 @@
+* Tue Mar 22 2016 Niels Breet <niels.breet@jolla.com> - 0.23.0-2
+- Provide m2crypto for backwards compatibility.
+- Contributes MER#1538
+
 * Mon Mar 07 2016 Niels Breet <niels.breet@jolla.com> - 0.23.0
 - Update to 0.23.0 for Mer. MER#1538
 - Sync patches and packaging with latest fedora.
