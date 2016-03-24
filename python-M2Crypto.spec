@@ -17,6 +17,7 @@ URL: https://gitlab.com/m2crypto/m2crypto/
 BuildRequires: openssl, openssl-devel, python2-devel, python-setuptools
 BuildRequires: perl, pkgconfig, swig, which
 Provides:   m2crypto = %{version}
+Provides:   python-m2crypto = %{version}
 
 %description
 This package allows you to call OpenSSL functions from python scripts.
