@@ -1,3 +1,7 @@
+* Thu Mar 24 2016 Martin Kampas <mrtin.kampas@jolla.com> - 0.23.0-3
+- Provide python-m2crypto for backwards compatibility.
+- Contributes MER#1538
+
 * Tue Mar 22 2016 Niels Breet <niels.breet@jolla.com> - 0.23.0-2
 - Provide m2crypto for backwards compatibility.
 - Contributes MER#1538
