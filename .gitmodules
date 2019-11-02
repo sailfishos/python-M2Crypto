@@ -1,0 +1,3 @@
+[submodule "m2crypto"]
+	path = m2crypto
+	url = https://gitlab.com/m2crypto/m2crypto.git
