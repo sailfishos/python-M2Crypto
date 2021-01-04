@@ -1,6 +1,6 @@
 Summary: Support for using OpenSSL in python scripts
 Name: python-M2Crypto
-Version: 0.35.2
+Version: 0.37.1
 Release: 1
 Source: %{name}-%{version}.tar.gz
 
