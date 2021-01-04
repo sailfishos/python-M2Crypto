@@ -16,6 +16,7 @@ This package allows you to call OpenSSL functions from python scripts.
 
 %prep
 %autosetup -p1 -n %{name}-%{version}/m2crypto
+sed -e 's/parameterized//' -i setup.py
 
 %build
 CFLAGS="$RPM_OPT_FLAGS" ; export CFLAGS
