@@ -1,40 +1,31 @@
 Summary: Support for using OpenSSL in python scripts
 Name: python-M2Crypto
-Version: 0.37.1
+Version: 0.41.0
 Release: 1
 Source: %{name}-%{version}.tar.gz
 
 License: MIT
 URL: https://gitlab.com/m2crypto/m2crypto/
-BuildRequires: openssl, openssl-devel, python3-devel, python3-setuptools
-BuildRequires: pkgconfig, swig, which
-Provides:   m2crypto = %{version}
-Provides:   python-m2crypto = %{version}
-
+BuildRequires: pkgconfig(python3)
+BuildRequires: pkgconfig(openssl)
+BuildRequires: python3-setuptools
+BuildRequires: pkgconfig
+BuildRequires: swig
+BuildRequires: fdupes
 %description
 This package allows you to call OpenSSL functions from python scripts.
 
 %prep
 %autosetup -p1 -n %{name}-%{version}/m2crypto
-sed -e 's/parameterized//' -i setup.py
 
 %build
-CFLAGS="$RPM_OPT_FLAGS" ; export CFLAGS
-if pkg-config openssl ; then
-        CFLAGS="$CFLAGS `pkg-config --cflags openssl`" ; export CFLAGS
-        LDFLAGS="$LDFLAGS`pkg-config --libs-only-L openssl`" ; export LDFLAGS
-fi
-
+export CFLAGS="%{optflags}"
 %py3_build
 
 %install
-CFLAGS="$RPM_OPT_FLAGS" ; export CFLAGS
-if pkg-config openssl ; then
-        CFLAGS="$CFLAGS `pkg-config --cflags openssl`" ; export CFLAGS
-        LDFLAGS="$LDFLAGS`pkg-config --libs-only-L openssl`" ; export LDFLAGS
-fi
-
 %py3_install
+
+%fdupes %{buildroot}
 
 %files
 %defattr(-,root,root,-)
